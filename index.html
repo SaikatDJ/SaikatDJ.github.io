@@ -3,186 +3,170 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Saikat Mahato - Resume</title>
+    <title>Saikat Mahato - Geophysicist & Photographer</title>
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    <style>
-        /* General Container */
-        .container { max-width: 960px; margin: 30px auto; padding: 0 16px; }
-
-        /* Navigation */
-        nav { 
-            background: #fff; 
-            box-shadow: 0 2px 6px rgba(0,0,0,0.05); 
-            position: sticky; 
-            top: 0; 
-            z-index: 10; 
-        }
-        nav ul { display:flex; gap:12px; list-style:none; padding:10px 16px; margin:0; justify-content:center; flex-wrap: wrap; }
-        nav a { text-decoration:none; color:#333 !important; font-weight:600; opacity: 1 !important; }
-        
-        /* Header */
-        header { text-align:center; padding:28px 16px; background:#2c3e50; color:white; }
-        header h1 { margin:0; font-size:28px; }
-        header p { margin:6px 0 0; }
-
-        /* Sections */
-        section { background:white; padding:20px; margin:18px 0; border-radius:6px; box-shadow:0 6px 18px rgba(0,0,0,0.04); }
-        h2 { margin-top:0; border-bottom:3px solid #f1f1f1; padding-bottom:8px; }
-        ul { margin:0; padding-left:20px; }
-
-        /* Buttons */
-        .btn { display:inline-block; margin-right:8px; padding:8px 12px; border-radius:6px; background:#2c3e50; color:white; text-decoration:none; font-weight:600; }
-        .btn.secondary { background:#6c757d; }
-        .btn:hover { transform: translateY(-2px); transition: all 0.2s ease-in-out; }
-        .btn.secondary:hover { background-color: #5a6268; }
-
-        /* Contact */
-        .contact-links { display:flex; gap:8px; align-items:center; flex-wrap:wrap; }
-
-        /* Footer */
-        footer { text-align:center; padding:16px; color:#777; font-size:14px; }
-
-        /* Work / Portfolio Grid */
-        .work-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 16px;
-            margin-top: 16px;
-        }
-        .work-item {
-            background: #fff;
-            border-radius: 6px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-            overflow: hidden;
-            text-align: center;
-            transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-        }
-        .work-item img {
-            width: 100%;
-            height: auto;
-            display: block;
-        }
-        .work-item p {
-            padding: 8px 12px;
-            margin: 0;
-            color: #555;
-        }
-        .work-item:hover {
-            transform: translateY(-4px);
-            box-shadow: 0 6px 18px rgba(0,0,0,0.1);
-        }
-
-        /* Smooth Scroll */
-        html { scroll-behavior: smooth; }
-
-        /* Responsive Nav */
-        @media(max-width: 600px){
-            nav ul { flex-direction: column; gap: 8px; }
-        }
-    </style>
 </head>
 <body>
 
 <!-- Navigation -->
 <nav>
-    <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#work">Work</a></li>
-        <li><a href="#contact">Contact</a></li>
-    </ul>
+    <div class="nav-container">
+        <div class="logo">SM</div>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#academics">Academics</a></li>
+            <li><a href="#photography">Photography</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
 </nav>
 
 <!-- Header -->
 <header class="animate__animated animate__fadeInDown">
     <h1>Saikat Mahato</h1>
-    <p>Geophysicist | AI/ML for Geophysical Modeling | Expert in 2D/3D Traditional Inversion</p>
+    <p class="subtitle">Geophysicist | AI/ML Researcher | Photographer</p>
+    <div class="divider"></div>
 </header>
 
 <div class="container">
 
     <!-- About Me -->
     <section id="about" class="animate__animated animate__fadeInLeft">
-        <h2>About Me</h2>
+        <h2>About</h2>
         <p>
-            Passionate geophysics researcher pursuing a Ph.D. under Prof. Anand Singh at IIT Bombay, specializing in
-            both traditional and AI/ML-driven geophysical inversion and mineral prospectivity mapping. Skilled in
-            geophysical data acquisition, processing, and advanced modelling, with expertise in Python, MATLAB,
-            TensorFlow, and PyTorch. Adept at translating complex geoscientific challenges into computational solutions
-            for high-impact research.
+            Ph.D. researcher in Geophysics at IIT Bombay specializing in AI/ML-driven geophysical inversion. 
+            Passionate about translating complex scientific challenges into computational solutions. 
+            When not researching, I capture the world through my lens—exploring landscapes, portraits, and moments that tell stories.
         </p>
     </section>
 
-    <!-- Skills -->
-    <section id="skills" class="animate__animated animate__fadeInRight">
-        <h2>Skills</h2>
-        <ul>
-            <li>MATLAB, Python</li>
-            <li>HTML, CSS, JavaScript</li>
-            <li>Traditional Inversion Techniques (2D / 3D)</li>
-            <li>Joint Inversion of Gravity, Magnetic, and Resistivity Data</li>
-            <li>Problem-Based and Solver-Based Optimization</li>
-            <li>Deep Learning (DL) and CNN-based Inversion of Multi-Geophysical Data</li>
-        </ul>
+    <!-- Academics Section -->
+    <section id="academics" class="animate__animated animate__fadeInRight">
+        <h2>Academics & Research</h2>
+        
+        <div class="content-grid">
+            <div class="content-card">
+                <h3>Experience</h3>
+                <p><strong>Ph.D. Researcher</strong> – Department of Earth Sciences, IIT Bombay (Present)</p>
+                <ul>
+                    <li>3D geophysical inversion for mineral exploration using traditional and AI/ML methods</li>
+                    <li>Bayesian trans-dimensional MCMC framework for seismic data inversion</li>
+                    <li>Deep learning architectures (CNN, Xception, ResNet) for multi-geophysical data</li>
+                    <li>Forward modeling and inversion in MATLAB and Python</li>
+                    <li>IndiaAI Hackathon 2025: Mineral prospectivity mapping</li>
+                </ul>
+            </div>
+
+            <div class="content-card">
+                <h3>Skills</h3>
+                <ul>
+                    <li><strong>Programming:</strong> Python, MATLAB</li>
+                    <li><strong>Web:</strong> HTML, CSS, JavaScript</li>
+                    <li><strong>Geophysics:</strong> 2D/3D Inversion, Joint Inversion</li>
+                    <li><strong>AI/ML:</strong> TensorFlow, PyTorch, Deep Learning</li>
+                    <li><strong>Optimization:</strong> Problem-based & Solver-based</li>
+                </ul>
+            </div>
+
+            <div class="content-card">
+                <h3>Projects</h3>
+                <ul>
+                    <li>Joint Inversion Framework (MATLAB)</li>
+                    <li>2D Rectangular Mesh-based Forward Modeling</li>
+                    <li>Optimization Tools & Guidebook</li>
+                    <li>CNN-based Geophysical Inversion</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="cta-buttons">
+            <a href="mailto:saikat.rm14@gmail.com?subject=Resume%20Request" class="btn">View Resume</a>
+            <a href="https://linkedin.com/in/saikat-mahato-48a92720b" class="btn btn-secondary" target="_blank">LinkedIn</a>
+        </div>
     </section>
 
-    <!-- Experience -->
-    <section id="experience" class="animate__animated animate__fadeInLeft">
-        <h2>Experience</h2>
-        <p><strong>Ph.D. Researcher</strong> – Department of Earth Sciences, IIT Bombay (Present)</p>
-        <ul>
-            <li>Conducting high-fidelity 3D geophysical inversion for mineral exploration and general geophysical problems using both traditional and AI/ML-based methods.</li>
-            <li>Developed and modified a Bayesian trans-dimensional MCMC framework to jointly invert P-wave polarization and receiver function (RF) data for shallow crustal structure mapping.</li>
-            <li>Applied Short-Term Average / Long-Term Average (STA/LTA) trigger algorithm for seismic event detection.</li>
-            <li>Designed and trained deep learning architectures (CNN, Xception, ResNet) for inversion of multi-geophysical datasets and rapid 2D/3D model prediction.</li>
-            <li>Implemented forward modeling and inversion algorithms in MATLAB and Python for both synthetic and field datasets.</li>
-            <li>Collaborated on IndiaAI Hackathon 2025 project: AI/ML-driven mineral prospectivity mapping for Karnataka and Andhra Pradesh.</li>
-        </ul>
-    </section>
+    <!-- Photography Section -->
+    <section id="photography" class="animate__animated animate__fadeInUp">
+        <h2>Photography</h2>
+        <p class="section-intro">Capturing moments through technical precision and creative vision.</p>
 
-    <!-- Projects -->
-    <section id="projects" class="animate__animated animate__fadeInRight">
-        <h2>Projects</h2>
-        <ul>
-            <li><strong>Joint Inversion Framework</strong>: Developed a MATLAB-based tool for gravity and magnetic data integration.</li>
-            <li><strong>Subsurface Modeling</strong>: Designed a 2D rectangular mesh-based forward modeling program for anomaly detection.</li>
-            <li><strong>Optimization Tools</strong>: Created a problem-based optimization guidebook for MATLAB users.</li>
-        </ul>
-    </section>
+        <!-- Landscapes -->
+        <div class="photo-category">
+            <h3>Landscapes</h3>
+            <div class="photo-grid">
+                <div class="photo-item">
+                    <div class="photo-placeholder">Landscape 1</div>
+                    <p>Mountain Vista</p>
+                </div>
+                <div class="photo-item">
+                    <div class="photo-placeholder">Landscape 2</div>
+                    <p>Sunset Serenity</p>
+                </div>
+                <div class="photo-item">
+                    <div class="photo-placeholder">Landscape 3</div>
+                    <p>Nature's Canvas</p>
+                </div>
+            </div>
+        </div>
 
-    <!-- Work / Portfolio -->
-    <section id="work" class="animate__animated animate__fadeInUp">
-        <h2>Work / Portfolio</h2>
-        <div class="work-grid">
-            <div class="work-item">
-                <img src="images/work1.jpg" alt="Project 1">
-                <p>Project 1 Description</p>
+        <!-- Portraits -->
+        <div class="photo-category">
+            <h3>Portraits</h3>
+            <div class="photo-grid">
+                <div class="photo-item">
+                    <div class="photo-placeholder">Portrait 1</div>
+                    <p>Character Study</p>
+                </div>
+                <div class="photo-item">
+                    <div class="photo-placeholder">Portrait 2</div>
+                    <p>Natural Light</p>
+                </div>
+                <div class="photo-item">
+                    <div class="photo-placeholder">Portrait 3</div>
+                    <p>Emotional Depth</p>
+                </div>
             </div>
-            <div class="work-item">
-                <img src="images/work2.jpg" alt="Project 2">
-                <p>Project 2 Description</p>
+        </div>
+
+        <!-- Events -->
+        <div class="photo-category">
+            <h3>Events</h3>
+            <div class="photo-grid">
+                <div class="photo-item">
+                    <div class="photo-placeholder">Event 1</div>
+                    <p>Captured Moments</p>
+                </div>
+                <div class="photo-item">
+                    <div class="photo-placeholder">Event 2</div>
+                    <p>Candid Stories</p>
+                </div>
+                <div class="photo-item">
+                    <div class="photo-placeholder">Event 3</div>
+                    <p>Behind the Scenes</p>
+                </div>
             </div>
-            <div class="work-item">
-                <img src="images/work3.jpg" alt="Project 3">
-                <p>Project 3 Description</p>
-            </div>
-            <!-- Add more work items as needed -->
         </div>
     </section>
 
     <!-- Contact -->
     <section id="contact" class="animate__animated animate__fadeInUp">
-        <h2>Contact</h2>
-        <div class="contact-links">
-            <a class="btn" href="mailto:saikat.rm14@gmail.com">Email</a>
-            <a class="btn secondary" href="https://linkedin.com/in/saikat-mahato-48a92720b" target="_blank" rel="noopener">LinkedIn</a>
-            <a class="btn" href="https://github.com/SaikatDJ/ME/blob/main/IR4.pdf" target="_blank" rel="noopener">Resume (PDF)</a>
-            <a class="btn" href="mailto:saikat.rm14@gmail.com?subject=Collaboration%20Opportunity" rel="noopener">Hire / Collaborate</a>
+        <h2>Get in Touch</h2>
+        <div class="contact-grid">
+            <div class="contact-item">
+                <h3>Email</h3>
+                <a href="mailto:saikat.rm14@gmail.com">saikat.rm14@gmail.com</a>
+            </div>
+            <div class="contact-item">
+                <h3>Location</h3>
+                <p>Mumbai, India</p>
+            </div>
+            <div class="contact-item">
+                <h3>Connect</h3>
+                <a href="https://linkedin.com/in/saikat-mahato-48a92720b" target="_blank">LinkedIn</a>
+                <a href="https://github.com/SaikatDJ" target="_blank">GitHub</a>
+            </div>
         </div>
-        <p style="margin-top:12px; color:#555;">Location: Mumbai, India</p>
     </section>
 
 </div>
